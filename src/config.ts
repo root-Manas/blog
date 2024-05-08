@@ -3,7 +3,7 @@ import type { Socials } from "./types";
 export const SITE_URL = "https://encryptica-blog.vercel.app/"; // Replace with your site url
 export const SITE_TITLE = "Manas's Blog";
 export const SITE_DESCRIPTION = "Manasraj Singh's personal blog";
-export const SITE_LOGO = "/placeholder.jpg";
+export const SITE_LOGO = "/logo.svg";
 
 export const SOCIALS: Socials = [
   {
