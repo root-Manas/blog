@@ -1,0 +1,32 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import FeaturedPosts from "../components/FeaturedPosts.astro";
+import RecentPosts from "../components/RecentPosts.astro";
+import SearchPosts from "../components/SearchPosts.astro";
+---
+
+<MainLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+  <div class="py-6">
+    <div class="text-4xl max-w-lg font-medium pt-16 pb-11">
+      <h1
+        class="bg-gradient-to-r from-slate-100 to-slate-400 inline-block text-transparent bg-clip-text"
+      >
+      Manasraj Singh
+      </h1>
+    </div>
+    <p
+      class="pb-5 bg-gradient-to-r from-slate-100 to-slate-400 inline-block text-transparent bg-clip-text"
+    >
+      I'm a Hacker, Security researcher and a Finance enthusiast. I ocassionally publish write-ups on Security,
+      CTFs, Finance and Economics. Opinions are my own based on my experiences and extensive research. You can check out my portfolio
+      <a href="https://manasraj-portfolio.vercel.app/" class="text-blue-500"> here</a>.
+     
+    </p>
+    <SearchPosts />
+    <div class="border-t border-zinc-800 my-10"></div>
+    <FeaturedPosts />
+    <div class="border-t border-zinc-800 my-12"></div>
+    <RecentPosts />
+  </div>
+</MainLayout>
