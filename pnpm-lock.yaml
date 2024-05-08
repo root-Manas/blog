@@ -13,10 +13,10 @@ importers:
         version: 0.5.2(typescript@5.3.3)
       '@astrojs/mdx':
         specifier: ^2.1.1
-        version: 2.1.1(astro@4.3.5)
+        version: 2.1.1(astro@4.3.5(typescript@5.3.3))
       '@astrojs/react':
         specifier: ^3.0.10
-        version: 3.0.10(@types/react-dom@18.2.19)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(vite@5.1.1)
+        version: 3.0.10(@types/react-dom@18.2.19)(@types/react@18.2.55)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(vite@5.1.1)
       '@astrojs/rss':
         specifier: ^4.0.5
         version: 4.0.5
@@ -25,7 +25,7 @@ importers:
         version: 3.0.5
       '@astrojs/tailwind':
         specifier: ^5.1.0
-        version: 5.1.0(astro@4.3.5)(tailwindcss@3.4.1)
+        version: 5.1.0(astro@4.3.5(typescript@5.3.3))(tailwindcss@3.4.1)
       '@fontsource-variable/rubik':
         specifier: ^5.0.20
         version: 5.0.20
@@ -35,6 +35,9 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.19
         version: 18.2.19
+      '@vercel/speed-insights':
+        specifier: ^1.0.10
+        version: 1.0.10(react@18.2.0)
       astro:
         specifier: ^4.3.5
         version: 4.3.5(typescript@5.3.3)
@@ -697,6 +700,29 @@ packages:
 
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
+
+  '@vercel/speed-insights@1.0.10':
+    resolution: {integrity: sha512-4uzdKB0RW6Ff2FkzshzjZ+RlJfLPxgm/00i0XXgxfMPhwnnsk92YgtqsxT9OcPLdJUyVU1DqFlSWWjIQMPkh0g==}
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19
+      svelte: ^4
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
 
   '@vitejs/plugin-react@4.2.1':
     resolution: {integrity: sha512-oojO9IDc4nCUUi8qIR11KoQm0XFFLIwsRBwHRR4d/88IWghn1y6ckz/bJ8GHDCsYEJee8mDzqtJxh15/cisJNQ==}
@@ -2611,7 +2637,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@2.1.1(astro@4.3.5)':
+  '@astrojs/mdx@2.1.1(astro@4.3.5(typescript@5.3.3))':
     dependencies:
       '@astrojs/markdown-remark': 4.2.1
       '@mdx-js/mdx': 3.0.0
@@ -2636,7 +2662,7 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/react@3.0.10(@types/react-dom@18.2.19)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(vite@5.1.1)':
+  '@astrojs/react@3.0.10(@types/react-dom@18.2.19)(@types/react@18.2.55)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(vite@5.1.1)':
     dependencies:
       '@types/react': 18.2.55
       '@types/react-dom': 18.2.19
@@ -2658,7 +2684,7 @@ snapshots:
       sitemap: 7.1.1
       zod: 3.22.4
 
-  '@astrojs/tailwind@5.1.0(astro@4.3.5)(tailwindcss@3.4.1)':
+  '@astrojs/tailwind@5.1.0(astro@4.3.5(typescript@5.3.3))(tailwindcss@3.4.1)':
     dependencies:
       astro: 4.3.5(typescript@5.3.3)
       autoprefixer: 10.4.16(postcss@8.4.33)
@@ -3188,6 +3214,10 @@ snapshots:
   '@types/unist@3.0.2': {}
 
   '@ungap/structured-clone@1.2.0': {}
+
+  '@vercel/speed-insights@1.0.10(react@18.2.0)':
+    optionalDependencies:
+      react: 18.2.0
 
   '@vitejs/plugin-react@4.2.1(vite@5.1.1)':
     dependencies:
@@ -4753,8 +4783,9 @@ snapshots:
   postcss-load-config@4.0.2(postcss@8.4.33):
     dependencies:
       lilconfig: 3.0.0
-      postcss: 8.4.33
       yaml: 2.3.4
+    optionalDependencies:
+      postcss: 8.4.33
 
   postcss-nested@6.0.1(postcss@8.4.33):
     dependencies:
@@ -5288,7 +5319,7 @@ snapshots:
   ts-interface-checker@0.1.13: {}
 
   tsconfck@3.0.1(typescript@5.3.3):
-    dependencies:
+    optionalDependencies:
       typescript: 5.3.3
 
   tslib@2.6.2:
@@ -5438,39 +5469,42 @@ snapshots:
       fsevents: 2.3.3
 
   vitefu@0.2.5(vite@5.1.1):
-    dependencies:
+    optionalDependencies:
       vite: 5.1.1
 
   volar-service-css@0.0.28(@volar/language-service@2.0.3):
     dependencies:
-      '@volar/language-service': 2.0.3
       vscode-css-languageservice: 6.2.11
       vscode-uri: 3.0.8
+    optionalDependencies:
+      '@volar/language-service': 2.0.3
 
   volar-service-emmet@0.0.28(@volar/language-service@2.0.3):
     dependencies:
-      '@volar/language-service': 2.0.3
       '@vscode/emmet-helper': 2.9.2
       volar-service-html: 0.0.28(@volar/language-service@2.0.3)
+    optionalDependencies:
+      '@volar/language-service': 2.0.3
 
   volar-service-html@0.0.28(@volar/language-service@2.0.3):
     dependencies:
-      '@volar/language-service': 2.0.3
       vscode-html-languageservice: 5.1.1
       vscode-uri: 3.0.8
+    optionalDependencies:
+      '@volar/language-service': 2.0.3
 
   volar-service-prettier@0.0.28(@volar/language-service@2.0.3):
     dependencies:
-      '@volar/language-service': 2.0.3
       vscode-uri: 3.0.8
+    optionalDependencies:
+      '@volar/language-service': 2.0.3
 
   volar-service-typescript-twoslash-queries@0.0.28(@volar/language-service@2.0.3):
-    dependencies:
+    optionalDependencies:
       '@volar/language-service': 2.0.3
 
   volar-service-typescript@0.0.28(@volar/language-service@2.0.3)(@volar/typescript@2.0.3):
     dependencies:
-      '@volar/language-service': 2.0.3
       '@volar/typescript': 2.0.3
       path-browserify: 1.0.1
       semver: 7.5.4
@@ -5478,6 +5512,8 @@ snapshots:
       vscode-languageserver-textdocument: 1.0.11
       vscode-nls: 5.2.0
       vscode-uri: 3.0.8
+    optionalDependencies:
+      '@volar/language-service': 2.0.3
 
   vscode-css-languageservice@6.2.11:
     dependencies:
