@@ -1,7 +1,7 @@
 ---
 title: "Cron Jobs to Privilege Escalation: Uncovering the Hidden Vulnerabilities"
-seoDescription: "Learn how to secure your system from privilege escalation risks associated with cron jobs."
-pubDate: Thu May 09 2024 18:51:45 GMT+0000 (Coordinated Universal Time)
+description: "Learn how to secure your system from privilege escalation risks associated with cron jobs."
+pubDate: "May 09 2024"
 featuredImage:  https://cdn.hashnode.com/res/hashnode/image/upload/v1698513078119/44c1ff38-13f8-4d2f-b45e-0b085b5e72af.png
 featured: true
 ---
