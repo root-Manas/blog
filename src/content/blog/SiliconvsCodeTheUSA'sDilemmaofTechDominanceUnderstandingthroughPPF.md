@@ -1,7 +1,7 @@
 ---
 title: "Silicon vs. Code: The USA's Dilemma of Tech Dominance, Understanding through PPF"
-description: "In this blog, I have used a simple PPF model to explain the trade-offs between silicon and code and its effect on USA's Economy."
-pubDate: "May 18 2024"
+description: "In this blog, I have used a simple PPF model to explain the trade-offs between silicon and code."
+pubDate: "June 01 2024"
 featured: true
 ---
 
