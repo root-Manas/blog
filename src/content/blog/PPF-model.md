@@ -8,15 +8,15 @@ featured: true
 
 ### Overview
 
-This blog covers a detailed analysis of USA's tech dominance and the challenges faced in seimiconductor manufacturing. I have used a simple PPF model to explain the trade-offs between silicon and code.
+This blog covers a detailed analysis of USA's tech dominance and the challenges faced in seimiconductor manufacturing. I have used a simple PPF model to explain the trade-offs between these.
 
 ### What is Semiconductor?
 
-Semiconductors are materials that have electrical conductivity between conductors (like copper) and insulators (like glass). They are the foundation of modern electronics and are used in a wide range of applications, from computers and smartphones to cars and medical devices basically everything that needs electricty to run. In simple words a mixture of elements that uses specific laws of physics to control the flow of electricity to manipulate signals better known as hardware.
+Semiconductors are materials that have electrical conductivity between conductors (like copper) and insulators (like glass). They are the foundation of modern electronics and are used in a wide range of applications, from computers and smartphones to cars and medical devices basically everything that needs electricty to run. In simple words a mixture of elements that uses specific laws of physics and adheres to chemical properties to control the flow of electricity & manipulate signals better known as hardware.
 
 ### The PRODUCTION POSSIBILITIES FRONTIER (PPF)
 
-In the book "Economics" by Paul Samuelson and William Nordhaus, the Production Possibilities Fr"ontier (PPF) is explain beautifully. In a simple scenerio a country cannot have unlimited amounts of all goods. They are limited by the resources and technology available to them. An example from the book: The choice by considering an economy which only produces two goods - guns and butter. The guns ofcourse represent military spending and the butter stands for
+In the book "Economics" by Paul Samuelson and William Nordhaus, the Production Possibilities Frontier (PPF) is explain beautifully. In a simple scenerio a country cannot have unlimited amounts of all goods. They are limited by the resources and technology available to them. An example from the book: The choice by considering an economy which only produces two goods - guns and butter. The guns ofcourse represent military spending and the butter stands for
 civilian spending. Suppose that our economy decides to throw all its energy into producing civilian good, butter. There is a maximum amount of butter that can be produced per year. The maximal amount of butter dependes on the quantity
 and the quality of the economies resources and the productive efficiency with which they are used. ***To sum it all up in one sentence PPF is a metric which tells us the more we invest in one good the less resources we have for the other.*** Let's see some numbers to better understand the concept.
 >Suppose we have 5 million kilograms of butter is the maximum amount that can be produced using existing technology and resources on the other extreme imagine all the resources are diverted to production of guns. Again, because the resources are limited the economy can produce only limited quantity of guns. For example if an economy produes 15,0000 guns of a certain kind if no butter is produced. Simply If we are willing to give up some butter we can have some guns and vice versa.
@@ -41,7 +41,7 @@ We see in the above table the more we invest in one thing the less we have to in
 
 ### Why use PPF to understand the trade-offs between silicon and code?
 
-The PPF model is a simple framework or metric for understanding the trade-offs between different goods. In the case of silicon and code, the PPF model can help us understand the trade-offs between investing in semiconductor manufacturing (silicon) and investing in software development (code). The PPF model can help us understand the limits of these investments and the potential benefits of investing in one over the other.
+The PPF model is a simple framework or metric for understanding the trade-offs between different goods. In this case, the PPF model can help us understand the trade-offs between investing in semiconductor manufacturing (silicon) and investing in software development (code). The PPF model can help us understand the limits of these investments and the potential benefits of investing in one over the other.
 
 **Past Reports' Analysis: Shifting Priorities**
 For this research, I analyzed three key metrics from 1990 to 2024 to understand the differences between semiconductor manufacturing and software development in the US:
