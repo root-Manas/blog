@@ -6,13 +6,13 @@ heroImage:  "https://cdn.hashnode.com/res/hashnode/image/upload/v1698513078119/4
 featured: true
 ---
 
-I participated in a Capture The Flag (CTF) challenge by QWASP TCET that spanned three intense days, involving five machines. To advance to the final round, I had to clear the first four levels, which I did. However, one particular level presented a complex and unfamiliar scenario: cron jobs.
+I participated in a Capture The Flag (CTF) challenge by QWASP-TCET that spanned three intense days, involving five machines. To advance to the final round, I had to clear the first four levels, which I did. However, one particular level presented a complex and unfamiliar scenario: cron jobs.
 
 In this blog, I'll share my experiences and newfound insights regarding cron jobs and privilege escalation. You'll learn how organizations sometimes overlook the importance of thoroughly cleaning up the servers before disposing them or just never using them again or maybe they forgot that it existed, leaving potential security vulnerabilities for attackers to exploit.
 
 Understanding Cron Jobs: Cron jobs are scheduled tasks in Unix-like operating systems that allow users to automate various processes at specified intervals. These tasks can range from backups to system maintenance, and they are executed with a user's privileges, usually requiring root access for system-level tasks.
 
-The Vulnerability: During the CTF challange, I encountered a situation that often arises in real-world scenarios: an organization had deleted a script associated with a cron job but neglected to remove the actual cron job entry. This oversight can be a goldmine for attackers.
+The Vulnerability: During the CTF challenge, I encountered a situation that often arises in real-world scenarios: an organization had deleted a script associated with a cron job but neglected to remove the actual cron job entry. This oversight can be a goldmine for attackers.
 
 Here's an example from the CTF challenge: I found a cron job that was set to execute a script named "[backup.sh](backup[*]sh)" in the directory /home/hecker. However, upon further investigation, there was no "[backup.sh](backup[*]sh)" script in sight. At this point, I realized I had the opportunity to exploit this vulnerability for privilege escalation.
 
