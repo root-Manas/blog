@@ -17,7 +17,7 @@ In 1983, Richard Stallman launched the GNU project with the goal of creating a f
 Today the modern ecosystem of Operating systems is divided into two categories.
    *Microsoft dependent OS like Windows and all its versions.
    *Unix based (Everything else apart from Windows)
-If you wish to learn more about OS and its descdents you can checkout [Operating Systems by Eylenburg](https://eylenburg.github.io/pics/Eylenburg_Operating_System_Timeline_Family_Tree.svg)
+If you wish to learn more about OS and its descendent's you can checkout [Operating Systems by Eylenburg](https://eylenburg.github.io/pics/Eylenburg_Operating_System_Timeline_Family_Tree.svg)
 
 ### What is UNIX?
 
