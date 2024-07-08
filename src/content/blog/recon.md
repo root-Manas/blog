@@ -14,7 +14,7 @@ There are mainly two types of recon. Active and Passive both are what they sound
 
 ### Process
 
-Recon is performed in two ways. Either you do it manually or setup some scripts or use open-source tools to automate it, either is fine given that you know what you are doing. The general way in both of these method is to initially read the engagement document this generally scope defined by the program or private conversation between you and the client the goal is to get couple of things straight what are rules of engagement? which assets are under scope which are out of scope?, what is testing period? what type of testing is prohibited includes (DOS, DDOS, Phishing etc) so these are generalities which you must get straight before-hand to avoid any future conflicts.
+Recon is performed in two ways. Either you do it manually or setup some scripts or use open-source tools to automate it, either is fine given that you know what you are doing. The general way in both of these method is to initially read the engagement document this is generally scope defined by the program or private conversation between you and the client the goal is to get couple of things straight what are rules of engagement? which assets are under scope which are out of scope?, what is testing period? what type of testing is prohibited includes (DOS, DDOS, Phishing etc) so these are generalities which you must get straight before-hand to avoid any future conflicts.
 
 Now that we have cleared the basics the next step involves thorough study of the target here you collect, read, study as much as you can about your target this gives you a clear idea of how the infrastructure is setup so that you can create a attack surface of the target.
 
