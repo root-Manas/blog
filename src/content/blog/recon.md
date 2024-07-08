@@ -71,23 +71,3 @@ sudo ./install.sh
 ### General Usage
 
 * **Note** You can refer the main [documentation](https://yogeshojha.github.io/rengine/) here for more details. (All credits to the author)
-
-Start
-
-![Start](./media/start.gif)
-
-Run Subscan
-
-![Dashboard](./media/subscan.gif)
-
-Data Filtering
-
-![DataFilter](./media/datafil.gif)
-
-Toolbox
-
-![Toolbox](./media/toolbox.gif)
-
-Setup custom tools
-
-![Settings](./media/custom-tools.gif)
