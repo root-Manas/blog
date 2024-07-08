@@ -71,3 +71,7 @@ sudo ./install.sh
 ### General Usage
 
 * **Note** You can refer the main [documentation](https://yogeshojha.github.io/rengine/) here for more details. (All credits to the author)
+
+### Outro
+
+Thanks for reading this blog post. I hope you learned something new.
