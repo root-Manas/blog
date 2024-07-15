@@ -2,7 +2,7 @@
 title: "How to recon?"
 description: "You know why you are here."
 pubDate: "July 08 2024"
-featured: true
+featured: false
 ---
 ### WTF is recon?
 
@@ -44,7 +44,7 @@ It is exactly what it sounds like. Use Free/Fermium/Paid tools to do the digging
 
 ### Requirements
 
-* VPS or a machine with 8-16GB RAM and 2-4 CPU cores 100GD storage. (My recommendation is is to signup for multiple free cloud services which offer free credits eg. Azure $200 credit, AWS $100 credit, GCP $300 credit, etc.) you should use Azure as it doesn't require any credit card.
+* VPS or a machine with 8-16GB RAM and 2-4 CPU cores 100DGB storage. (My recommendation is is to signup for multiple free cloud services which offer free credits eg. Azure $200 credit, AWS $100 credit, GCP $300 credit, etc.) you should use Azure as it doesn't require any credit card.
   
 * Select an OS image and get that VPS up and running. (I recommend latest Ubuntu)
 
