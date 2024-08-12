@@ -2,7 +2,7 @@
 title: "Electromagnetic Engineering"
 description: "As the inaugural part of the 6-part series on communication systems, Electromagnetic Engineering takes center stage. This discipline is the lifeblood of all modern communication, enabling the seamless transfer of information across vast distances."
 pubDate: "August 12 2024"
-heroImage: "./media/ele-hero.png"
+heroImage: "https://www.imt-inc.com/wp-content/uploads/The-Science-Behind-Electromagnets.jpg"
 featured: true
 ---
 
@@ -85,19 +85,19 @@ This addition allowed Maxwell to predict that electromagnetic waves could propag
 Maxwell’s final form of the equations is as follows:
 
 1. **Gauss’s Law for Electricity**:
-   $$\nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}$$
+   $`\nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}`$
    (Electric charges produce an electric field.)
 
 2. **Gauss’s Law for Magnetism**:
-   $$\nabla \cdot \mathbf{B} = 0$$
+   $`\nabla \cdot \mathbf{B} = 0`$
    (There are no "magnetic charges"; magnetic field lines are closed loops.)
 
 3. **Faraday’s Law of Induction**:
-   $$\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{ \partial t}$$
+   $`\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{ \partial t}`$
    (A changing magnetic field creates an electric field.)
 
 4. **Ampère-Maxwell Law**:
-   $$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{ \partial t}$$
+   $`\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{ \partial t}`$
    (Electric currents and changing electric fields create a magnetic field.)
 
 Now that we’ve got a handle on how these equations shape the behavior of electromagnetic waves, let’s dive into how these waves actually travel and make wireless communication possible. Isn’t it fascinating how, in the world of science, new theories often come along to challenge the old ones? But these four equations are so solid, so foundational, that no one’s been able to overturn them. Instead, we just keep building new technologies on top of them, pushing further into what we can achieve.
@@ -160,16 +160,15 @@ where:
 - $\theta_i$ is the angle of incidence,
 - $\theta_r$ is the angle of reflection.
 
-- **Refraction** happens when a wave passes through a boundary between two different media, causing it to change direction based on the material’s refractive index. Snell's Law describes this as:
+- **Refraction** happens when a wave passes from one medium to another, changing its speed and direction. Snell's Law describes this phenomenon:
 
 $$
-\frac{\sin \theta_i}{\sin \theta_t} = \frac{v_1}{v_2}
+\frac{\sin \theta_1}{\sin \theta_2} = \frac{v_1}{v_2}
 $$
 
 where:
-- $\theta_i$ is the angle of incidence,
-- $\theta_t$ is the angle of transmission,
-- $v_1$ and $v_2$ are the speeds of the wave in the respective media.
+- $\theta_1$ and $\theta_2$ are the angles of incidence and refraction, respectively,
+- $v_1$ and $v_2$ are the wave velocities in the respective media.
 
 - **Diffraction** involves the bending of waves around obstacles or through openings. The amount of diffraction depends on the wavelength of the wave and the size of the obstacle or aperture.
 
