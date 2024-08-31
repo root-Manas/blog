@@ -29,6 +29,12 @@ importers:
       '@astrojs/vercel':
         specifier: ^7.7.2
         version: 7.7.2(astro@4.13.3(typescript@5.5.4))(react@18.3.1)
+      '@fontsource-variable/hepta-slab':
+        specifier: ^5.0.21
+        version: 5.0.21
+      '@fontsource-variable/piazzolla':
+        specifier: ^5.0.22
+        version: 5.0.22
       '@fontsource-variable/rubik':
         specifier: ^5.0.22
         version: 5.0.22
@@ -426,6 +432,12 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/hepta-slab@5.0.21':
+    resolution: {integrity: sha512-C5U3deqKjvaaTaLDWa9TYtAH12Qmw+LOv4KdCitIlraMTQBWSjf/3I681BgPZIcfxV23byRSuit0H+8eJ4VdDg==}
+
+  '@fontsource-variable/piazzolla@5.0.22':
+    resolution: {integrity: sha512-TZQP9lIPl/K/ziWKg+6b0HmZHdHYjcHtFo3TU9UjdjSI0E2EdlLo/e5f8YBPRXWyw4f68nAeAn2fPA6ULz/MMg==}
 
   '@fontsource-variable/rubik@5.0.22':
     resolution: {integrity: sha512-QwMlj57+k5+IsShA8q6FECU6zlR4CIm4TAy49GIIiMxxpmRwDXbMynrTp2kBNZmlN4b/myXzSRBnI2DXmnWBJA==}
@@ -3015,6 +3027,10 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@fontsource-variable/hepta-slab@5.0.21': {}
+
+  '@fontsource-variable/piazzolla@5.0.22': {}
 
   '@fontsource-variable/rubik@5.0.22': {}
 
