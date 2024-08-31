@@ -1,7 +1,7 @@
 ---
-title: "Why is it good idea to learn about antennas? Probably to not get hacked"
-description: "Dive deep into the fascinating world of antennas, uncover their ingenious workings, and explore the hidden vulnerabilities in our wireless ecosystem. Spoiler: No, tinfoil hats won't help. Like, at all."
-pubDate: "August 26 2024"
+title: "Why is it good idea to learn about antennas? Probably if you don't want to get hacked"
+description: "The second installment of the series Antenna and Wave propagation"
+pubDate: "August 31 2024"
 heroImage: "https://i.pinimg.com/564x/6a/6c/b6/6a6cb6ab99f32144f7db34b1795337f6.jpg"
 featured: true
 ---
