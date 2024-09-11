@@ -18,9 +18,10 @@ Before we humans invented digital communication, our own brains were already roc
 
 Now, let's talk math. Because what's a good tech blog without some equations to make your brain do somersaults?
 
-<div style="background-color: #e6f7ff; padding: 10px; border-radius: 5px; color: black;">
 
-**Math Alert! (Don't worry, we'll hold your hand)**
+<div style="background-color: #e6f7ff; padding: 10px; border-radius: 5px; color: black; margin: 20px 0;">
+
+Math Alert! (Don't worry, we'll hold your hand)
 
 In the digital world, we represent information using discrete values, typically 0s and 1s. For example, the binary number `1011` can be expressed in decimal as:
 
@@ -76,19 +77,19 @@ Now, let's talk about line coding. It's how we make those 1s and 0s boogie acros
 
 <div style="background-color: #ffebcc; padding: 10px; border-radius: 5px; color: black;">
 
-**Exploring Line Coding Techniques (Warning: May Cause Uncontrollable Urge to Draw Squiggly Lines)**
+Exploring Line Coding Techniques (Warning: May Cause Uncontrollable Urge to Draw Squiggly Lines)
 
 Line coding techniques are essential for defining how bits are represented in the physical layer of communication systems. Here's a deeper dive into some popular methods:
 
-- **Unipolar Encoding**: Often referred to as the lazy coder's choice, this method uses a single voltage level to represent a '1' and zero voltage to represent a '0'. It's straightforward and easy to implement but lacks efficiency in power usage and signal integrity over longer distances.
+- <span style="color: black; font-weight: bold;">Unipolar Encoding</span>: Often referred to as the lazy coder's choice, this method uses a single voltage level to represent a '1' and zero voltage to represent a '0'. It's straightforward and easy to implement but lacks efficiency in power usage and signal integrity over longer distances.
 
-- **Polar Encoding**: Known as the drama queen of line coding, polar encoding uses a positive voltage to represent a '1' and a negative voltage for a '0'. This method is more efficient than unipolar as it better utilizes the power spectrum and reduces the likelihood of signal degradation.
+- <span style="color: black; font-weight: bold;">Polar Encoding</span>: Known as the drama queen of line coding, polar encoding uses a positive voltage to represent a '1' and a negative voltage for a '0'. This method is more efficient than unipolar as it better utilizes the power spectrum and reduces the likelihood of signal degradation.
 
-- **Bipolar Encoding**: The hipster of encoding techniques, bipolar encoding alternates between positive and negative voltages for '1s' while '0s' are represented by zero voltage. This approach effectively reduces the DC component of the signal, minimizing the required bandwidth and improving signal integrity.
+- <span style="color: black; font-weight: bold;">Bipolar Encoding</span>: The hipster of encoding techniques, bipolar encoding alternates between positive and negative voltages for '1s' while '0s' are represented by zero voltage. This approach effectively reduces the DC component of the signal, minimizing the required bandwidth and improving signal integrity.
 
-- **Manchester Encoding**: The overachiever in the group, Manchester encoding merges the clock and data signals into one. Each bit is represented by either a high-to-low or a low-to-high transition at the midpoint of the bit period, making it highly reliable for timing synchronization but more complex to implement.
+- <span style="color: black; font-weight: bold;">Manchester Encoding</span>: The overachiever in the group, Manchester encoding merges the clock and data signals into one. Each bit is represented by either a high-to-low or a low-to-high transition at the midpoint of the bit period, making it highly reliable for timing synchronization but more complex to implement.
 
-- **Differential Manchester Encoding**: As the cooler sibling of Manchester encoding, this technique is also based on transitions. However, it differs in that the direction of the transition at the start of each bit period indicates the bit value, enhancing its robustness against signal degradation and making it ideal for noisy environments.
+- <span style="color: black; font-weight: bold;">Differential Manchester Encoding</span>: As the cooler sibling of Manchester encoding, this technique is also based on transitions. However, it differs in that the direction of the transition at the start of each bit period indicates the bit value, enhancing its robustness against signal degradation and making it ideal for noisy environments.
 
 These techniques each have their unique characteristics and are chosen based on the specific requirements of the communication system, such as power efficiency, error resilience, and complexity.
 </div>
@@ -97,7 +98,7 @@ Let's dive deeper into Manchester Encoding, because who doesn't love a good brai
 
 <div style="background-color: #e6ffe6; padding: 10px; border-radius: 5px; color: black;">
 
-**Manchester Encoding: The Math Behind the Magic**
+<span style="color: black; font-weight: bold;">Manchester Encoding: The Math Behind the Magic</span>
 
 In Manchester encoding, each bit is represented by a transition:
 - 0 is represented by a low-to-high transition
@@ -145,7 +146,7 @@ Modulation is like giving our digital signal a fancy outfit to wear to the trans
 
 <div style="background-color: #e6f7ff; padding: 10px; border-radius: 5px; color: black;">
 
-- **Amplitude Modulation (AM)**: Changes the height of the waves. It's like yelling to be heard over a crowd.
+- <span style="color: black; font-weight: bold;">Amplitude Modulation (AM)</span>: Changes the height of the waves. It's like yelling to be heard over a crowd.
 
   Mathematical representation:
   $$
@@ -153,7 +154,7 @@ Modulation is like giving our digital signal a fancy outfit to wear to the trans
   $$
   Where $A_c$ is the carrier amplitude, $m(t)$ is the message signal, and $f_c$ is the carrier frequency.
 
-- **Frequency Modulation (FM)**: Changes how often the waves come. It's like speaking in different accents.
+- <span style="color: black; font-weight: bold;">Frequency Modulation (FM)</span>: Changes how often the waves come. It's like speaking in different accents.
 
   Mathematical representation:
   $$
@@ -161,7 +162,7 @@ Modulation is like giving our digital signal a fancy outfit to wear to the trans
   $$
   Where $k_f$ is the frequency sensitivity.
 
-- **Phase Modulation (PM)**: Shifts the timing of the waves. It's like doing the moonwalk while delivering your message.
+- <span style="color: black; font-weight: bold;">Phase Modulation (PM)</span>: Shifts the timing of the waves. It's like doing the moonwalk while delivering your message.
 
   Mathematical representation:
   $$
@@ -177,7 +178,7 @@ Encoding and decoding in digital communication are akin to the roles of James Bo
 
 <div style="background-color: #ffe6e6; padding: 10px; border-radius: 5px; color: black;">
 
-**ASCII Encoding: When Letters Pretend to Be Numbers**
+<span style="color: black; font-weight: bold;">ASCII Encoding: When Letters Pretend to Be Numbers</span>
 
 To understand the magic of ASCII encoding, let's take a deeper dive into the process using the word "HI" as an example:
 
