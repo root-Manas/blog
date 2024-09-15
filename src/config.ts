@@ -36,5 +36,13 @@ export const SOCIALS: Socials = [
     href: "https://tryhackme.com/p/Manasraj",
     linkTitle: ` ${SITE_TITLE} on Tryhackme`,
     active: true,
+  },
+  {
+    name: "CTFTIME",
+    href: "https://ctftime.org/user/204608",
+    linkTitle: ` ${SITE_TITLE} on CTFtime`,
+    active: true,
   }
+
+
 ];
