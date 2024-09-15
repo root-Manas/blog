@@ -2,9 +2,7 @@
 import { SITE_TITLE, SITE_LOGO } from "../config";
 ---
 
-<header
-  class="flex items-center justify-between py-6 max-w-5xl px-3 md:px-6 mx-auto"
->
+<header class="flex items-center justify-between py-6 max-w-5xl px-3 md:px-6 mx-auto">
   {
     SITE_LOGO ? (
       <img src={SITE_LOGO} alt={SITE_TITLE} class="w-8 h-8" />
@@ -13,22 +11,58 @@ import { SITE_TITLE, SITE_LOGO } from "../config";
     )
   }
   <nav>
-    <ul class="flex items-center justify-center space-x-4">
+    <button id="menu-toggle" class="block md:hidden">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+      </svg>
+    </button>
+    <ul id="menu" class="hidden md:flex items-center justify-center space-x-4">
       <li>
         <a href="/">Home</a>
       </li>
       <li>
         <a href="/blog">Posts</a>
       </li>
-   <li>
-    <a href="https://manass.gitbook.io/thesis-research-documentation/">Research</a>
-   </li>
-   <li>
-    <a href="https://manasraj-portfolio.vercel.app/">Portfolio</a>
-   </li>
-   <li>
-    <a href="https://ctftime.org/user/204608">CTFTIME.org</a>
-   </li>
-</ul>
+      <li>
+        <a href="https://manass.gitbook.io/thesis-research-documentation/">Research</a>
+      </li>
+      <li>
+        <a href="https://manasraj-portfolio.vercel.app/">Portfolio</a>
+      </li>
+      <li>
+        <a href="https://ctftime.org/user/204608">CTFTIME.org</a>
+      </li>
+    </ul>
   </nav>
 </header>
+
+<style>
+  #menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    #menu {
+      display: flex !important;
+    }
+  }
+</style>
+
+<script>
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+    const menu = document.getElementById('menu');
+    if (menu.classList.contains('hidden')) {
+      menu.classList.remove('hidden');
+      menu.classList.add('flex', 'flex-col', 'space-y-4');
+    } else {
+      menu.classList.add('hidden');
+      menu.classList.remove('flex', 'flex-col', 'space-y-4');
+    }
+  });
+</script>
