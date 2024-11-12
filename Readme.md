@@ -27,7 +27,6 @@ I regularly update this repository with new blog posts and improvements. Stay tu
 - [TypeScript](https://www.typescriptlang.org/): Typed superset of JavaScript
 - [MDX](https://mdxjs.com/): Markdown for the component era
 
-
 ## 📬 Contact
 
 If you have any questions or just want to say hi, feel free to reach out!
